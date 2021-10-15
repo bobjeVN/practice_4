@@ -1,0 +1,8 @@
+a = 1
+b = 0
+print('введите числа')
+while a > 0:
+ a = int(input())
+if a > 0:
+  b = b+a;
+  print(b)
