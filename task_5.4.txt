@@ -1,0 +1,10 @@
+A = 0 
+B = int(input('КОЛ-ВО СТРОК '))
+while A < B: 
+    print ('#', end=' ')
+    c = 0
+    while c != A:
+        print(' ',end=' ')
+        c = c+1 
+    print('#')
+    A = A+1 
